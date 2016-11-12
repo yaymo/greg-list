@@ -1,0 +1,87 @@
+*{
+  box-sizing: border-box;
+}
+body{
+  margin: 0;
+  padding: 100px;
+}
+.logo{
+  display: inline-block;
+}
+header{
+  position: fixed;
+  background-color: #DDDDDD;
+  width: 100%;
+  top: 0;
+  left:0;
+  bottom:0;
+  height: 75px;
+}
+.nav-top{
+  position: absolute;
+  right: 10px;
+  top: 25px;
+}
+.links{
+  font-size: 25px;
+  padding: 10px;
+}
+a:hover{
+  text-decoration: underline;
+}
+a{
+  text-decoration: none;
+}
+.logo{
+  display: inline-block;
+  margin: 0;
+  padding: 0;
+}
+.logo h1{
+  padding-left: 10px;
+}
+.search-bar{
+ margin-bottom: 25px;
+}
+
+.search-bar input{
+  width: 300px;
+  padding: 0 5px 0 10px;
+}
+.search-bar button{
+  border: 1px solid #DDDDDD;
+  background-color: white;
+  border-radius: 4px;
+  height: 30px;
+}
+.page-nav{
+  margin-bottom: 30px;
+  display: inline-block;
+  border: 1px solid #DDDDDD;
+  border-radius: 3px;
+}
+.nav-button{
+  border-radius: 3px;
+  font-size: 16px;
+  display: inline-block;
+  padding: 10px 15px;
+  
+}
+.page-number{
+  border: 1px solid #DDDDDD;
+  padding: 10px 25px;
+}
+li .results{
+  color: #DDDDDD;
+  font-size: 20px;
+}
+li .role{
+  font-size: 20px;
+  margin: 0 10px;
+}
+.search-option{
+  list-style: none;
+}
+.search-results{
+  margin-left: -40px;
+}
